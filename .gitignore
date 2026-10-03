@@ -1,0 +1,24 @@
+# Secrets - NEVER commit your API key
+.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated at runtime
+uploads/
+outputs/
+
+# Downloaded model weights (~25 MB, re-downloaded automatically)
+models/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
