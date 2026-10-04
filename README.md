@@ -1,6 +1,6 @@
 # DecodeLabs AI Project 4 - Image / Text Recognition (Basic)
 
-Pre-trained, 100% free stack: **OpenCV + Tesseract (pytesseract) + YOLOv4-tiny (COCO)**. No API keys.
+Pre-trained, 100% free stack: **OpenCV + Tesseract (pytesseract) + YOLOv4-tiny (COCO)**.
 
 ## Setup
 ```bash
