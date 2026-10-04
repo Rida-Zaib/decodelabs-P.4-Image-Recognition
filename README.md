@@ -144,9 +144,7 @@ The two rejected images are the same ones the Gemini engine reads in the screens
 ## Honest limits
 
 - **Tesseract** reads straight printed text well, but not curved text or handwriting. The gate rejects those instead of showing wrong text.
-- **YOLOv4-tiny** only knows the 80 COCO classes, so a butterfly or a flower is outside its vocabulary:
 
-  ![Classic detector finds nothing in a butterfly photo](docs/img/ui-detect-limit.jpg)
 
 - **Gemini** sends your photo to Google's API, is subject to the free-tier rate limit, and gives self-reported confidence.
 - The full app needs the Tesseract program installed, so it cannot run on serverless static hosts. The results gallery in `docs/` is pre-computed instead.
